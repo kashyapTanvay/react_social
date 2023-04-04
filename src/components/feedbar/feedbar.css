@@ -1,0 +1,7 @@
+.feedBar {
+  flex: 6;
+  height: calc(100vh - 50px);
+}
+.feedbarWrapper {
+  padding: 20px;
+}
