@@ -1,3 +1,5 @@
+import { Users } from "../../dummyData";
+import Online from "../online/Online";
 import "./rightbar.css";
 
 export default function Rightbar() {
@@ -15,72 +17,9 @@ export default function Rightbar() {
         <h4 className="rightbarTitle">Online Friend</h4>
         <div className="rightbarOnlineFriendListContainer">
           <ul className="rightbarOnlineFriendList">
-            <li className="OnlineFriendList">
-              <div className="onlineFriend">
-                <img
-                  className="onlineFriendImage"
-                  src="\assets\person\c.jpeg"
-                  alt=""
-                />
-                <span className="onlineLogo"></span>
-                <span className="rightbarOnlineFriendName">Tanvay Kashyap</span>
-              </div>
-            </li>
-            <li className="OnlineFriendList">
-              <div className="onlineFriend">
-                <img
-                  className="onlineFriendImage"
-                  src="\assets\person\c.jpeg"
-                  alt=""
-                />
-                <span className="onlineLogo"></span>
-                <span className="rightbarOnlineFriendName">Tanvay Kashyap</span>
-              </div>
-            </li>
-            <li className="OnlineFriendList">
-              <div className="onlineFriend">
-                <img
-                  className="onlineFriendImage"
-                  src="\assets\person\c.jpeg"
-                  alt=""
-                />
-                <span className="onlineLogo"></span>
-                <span className="rightbarOnlineFriendName">Tanvay Kashyap</span>
-              </div>
-            </li>
-            <li className="OnlineFriendList">
-              <div className="onlineFriend">
-                <img
-                  className="onlineFriendImage"
-                  src="\assets\person\c.jpeg"
-                  alt=""
-                />
-                <span className="onlineLogo"></span>
-                <span className="rightbarOnlineFriendName">Tanvay Kashyap</span>
-              </div>
-            </li>
-            <li className="OnlineFriendList">
-              <div className="onlineFriend">
-                <img
-                  className="onlineFriendImage"
-                  src="\assets\person\c.jpeg"
-                  alt=""
-                />
-                <span className="onlineLogo"></span>
-                <span className="rightbarOnlineFriendName">Tanvay Kashyap</span>
-              </div>
-            </li>
-            <li className="OnlineFriendList">
-              <div className="onlineFriend">
-                <img
-                  className="onlineFriendImage"
-                  src="\assets\person\c.jpeg"
-                  alt=""
-                />
-                <span className="onlineLogo"></span>
-                <span className="rightbarOnlineFriendName">Tanvay Kashyap</span>
-              </div>
-            </li>
+            {Users.map((u) => (
+              <Online key={u.id} user={u} />
+            ))}
           </ul>
         </div>
       </div>

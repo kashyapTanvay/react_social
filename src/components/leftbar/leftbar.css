@@ -1,60 +1,51 @@
-.leftBar{
-    flex:3;
-    height: calc(100vh - 50px);
-    overflow-y: scroll;
+.leftBar {
+  flex: 3;
+  position: sticky;
+  height: calc(100vh - 50px);
+  overflow-y: scroll;
+  top: 50px;
 }
-::-webkit-scrollbar{
-    width: 7px;
+::-webkit-scrollbar {
+  width: 7px;
 }
-::-webkit-scrollbar-track{
-    background-color: rgb(238, 233, 233);
+::-webkit-scrollbar-track {
+  background-color: rgb(238, 233, 233);
 }
-::-webkit-scrollbar-thumb{
-    background-color: gray;
+::-webkit-scrollbar-thumb {
+  background-color: gray;
 }
-.leftbarWrapper{
-    padding: 10px;
-
+.leftbarWrapper {
+  padding: 20px;
 }
-.leftbarList{
-    list-style: none;
-    padding: 0;
-    margin: 0;
-    margin-left: 5px;    
+.leftbarList {
+  list-style: none;
+  padding: 0;
+  margin: 0;
 }
-.leftbarListItem{
-    margin-bottom: 10px;
-    display:flex;
-    align-items: center;
+.leftbarListItem {
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
 }
-.leftbarListIcon{
-    margin-right: 10px;
+.leftbarListIcon {
+  margin-right: 10px;
 }
-.leftbarButton{
-    font-weight: bold;
-    margin: 15px 10px;
-    background-color:beige;
+.leftbarButton {
+  width: 150px;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  font-weight: 500;
+  /* font-weight: bold;
+  margin: 15px 10px;
+  background-color: beige; */
 }
-.leftbarHr{
-    margin: 20px 0;
-}
-
-.leftbarFriendList{
-    padding: 0;
-    list-style: none;
-    margin: 0;
-}
-.leftbarFriend{
-    display: flex;
-    align-items: center;
-    margin-bottom: 15px;
-
+.leftbarHr {
+  margin: 20px 0;
 }
 
-.leftbarFriendImage{
-    height: 32px;
-    width: 32px;
-    margin-right: 10px;
-    border-radius: 50%;
-    object-fit: cover;
+.leftbarFriendList {
+  padding: 0;
+  list-style: none;
+  margin: 0;
 }
