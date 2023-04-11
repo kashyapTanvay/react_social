@@ -7,12 +7,12 @@ export const Users = [
   {
     id: 2,
     profilePicture: "assets/person/b.jpeg",
-    userName: "Tony Stark",
+    userName: "Cardi Bi",
   },
   {
     id: 3,
     profilePicture: "assets/person/c.jpeg",
-    userName: "Cardi Bi",
+    userName: "Tony Stark",
   },
   {
     id: 4,
@@ -27,17 +27,17 @@ export const Users = [
   {
     id: 6,
     profilePicture: "assets/person/f.jpeg",
-    userName: "Jenifer lawerence",
+    userName: "Jenifer L",
   },
   {
     id: 7,
     profilePicture: "assets/person/g.jpeg",
-    userName: "Bruno Mars",
+    userName: "Adrina Lima",
   },
   {
     id: 8,
     profilePicture: "assets/person/h.jpeg",
-    userName: "Adrina Lima",
+    userName: "Bruno Mars",
   },
   {
     id: 9,

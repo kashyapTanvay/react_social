@@ -1,6 +1,6 @@
 .rightBar {
-  flex: 3;
   height: calc(100vh - 50px);
+  flex: 3.5;
 }
 .rightbarWrapper {
   padding: 20px 20px 0 0;
@@ -22,13 +22,13 @@
   font-weight: 300;
 }
 
-.rightbarAdd {
+/* .rightbarAdd {
   margin: 30px 0;
   height: 200px;
   width: 100%;
-  /* object-fit: cover; */
+  object-fit: cover;
   border-radius: 10px;
-}
+} */
 
 .rightbarTitle {
   font-weight: 500;
@@ -38,4 +38,33 @@
 .rightbarOnlineFriendListContainer {
   margin: 0;
   padding: 0;
+}
+
+.rightbarTittle {
+  font-size: 18px;
+  font-weight: 500px;
+  margin-bottom: 15px;
+}
+
+.rightbarInfo {
+  margin-top: 10px;
+}
+
+.rightbarInfoItem {
+  margin-bottom: 10px;
+}
+
+.rightbarInfoItemKey {
+  color: #555;
+  font-weight: 300px;
+}
+
+.rightbarInfoItemValue {
+  color: #333030;
+  font-weight: 300px;
+}
+
+.rightbarFollowings {
+  display: flex;
+  flex-wrap: wrap;
 }
